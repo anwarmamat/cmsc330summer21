@@ -1,9 +1,9 @@
 [course]
-id = 236847
+id = 272105
 name = "CMSC330"
-term = "Spring 2021"
+term = "Summer 2021"
 
 [assignment]
-id = 984600
+id = 1332760
 name = "Project 1b - Battleship game"
 files = [ "src/models/game_board.rb", "src/controllers/input_controller.rb" ]
