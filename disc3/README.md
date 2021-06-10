@@ -1,7 +1,4 @@
 # Discussion 3: Introduction to OCaml
-Due: 18 September 2020, 11:59pm EDT (No late submissions will be accepted)
-
-Points: 100 public
 
 ## Introduction
 
