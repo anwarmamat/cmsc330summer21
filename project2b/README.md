@@ -1,10 +1,8 @@
 ### Updates
-* 02-25 - Fixed typo in Part 4 description. The value of `a` at Point B should be 20, not 30.
-* 02-25 - Removed `var_exists` from skeleton.
 
 # Project 2b: OCaml Higher Order Functions and Data
 
-Due: March 10 (first late March 11, *10% penalty*; second late March 17, *75% penalty*).
+Due: June 18 (late June 19, *10% penalty*)
 
 Points: 65 public, 35 semipublic
 
