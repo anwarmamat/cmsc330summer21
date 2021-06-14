@@ -1,0 +1,11 @@
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 I: Start test public:1:multi_map.
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 E: Test public:1:multi_map has failed.
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 E: not equal in test public:1:multi_map.
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 E: Called from Dune__exe__Public.test_multi_map in file "test/public/public.ml", line 11, characters 4-169
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 E: 
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 I: End test public:1:multi_map.
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 I: Start test public:2:update_database.
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 I: Test public:2:update_database is successful.
+2020-09-22T23:46:37+00:00 Shilpas-MBP.fios-router.home#02 I: End test public:2:update_database.
