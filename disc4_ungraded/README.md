@@ -1,5 +1,5 @@
 # Discussion 4: Datatypes & Higher Order Functions
-Due: 27 September 2020, 11:59pm EDT (No late submissions will be accepted)
+Due: Never (ungraded exercise intended as practice for your quiz)
 
 Points: 100 public
 
@@ -7,9 +7,6 @@ Points: 100 public
 
 This exercise consists of a couple of functions to get you familiarized with tuples and records, but mostly on higher order functions.  You can review the content of the discussion in [notes.rb](notes.rb), which includes the topics and examples from the discussion video.
 
-### Testing & Submitting
-
-You will submit this project to [Gradescope](https://www.gradescope.com/courses/171498/assignments/694478).  You may only submit the **disc4.ml** file.  To test locally, run `dune runtest -f`.
 
 ### Implementation
 
