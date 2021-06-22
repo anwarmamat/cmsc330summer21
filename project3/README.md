@@ -1,5 +1,5 @@
 # Project 3: Regular Expression Engine
-Due: July 6th (Late July 7th for 90% credit)
+Due: July 2nd (Late July 3rd for 90% credit)
 
 Points: 35 public, 35 semipublic, 30 secret
 
