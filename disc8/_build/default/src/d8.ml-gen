@@ -1,0 +1,5 @@
+(** @canonical D8.Lexer *)
+module Lexer = D8__Lexer
+
+(** @canonical D8.Parser *)
+module Parser = D8__Parser

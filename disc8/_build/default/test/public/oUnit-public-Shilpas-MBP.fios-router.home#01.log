@@ -1,0 +1,72 @@
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:0:lex_empty.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:0:lex_empty exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:0:lex_empty.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_lex_empty in file "test/public/public.ml", line 6, characters 25-36
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:0:lex_empty.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:2:lex_one_plus_two.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:2:lex_one_plus_two exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:2:lex_one_plus_two.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_lex_one_plus_two in file "test/public/public.ml", line 12, characters 57-73
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:2:lex_one_plus_two.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:4:long_lexer_1.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:4:long_lexer_1 exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:4:long_lexer_1.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_long_lexer_1 in file "test/public/public.ml", line 18, characters 78-93
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:4:long_lexer_1.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:5:long_lexer_2.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:5:long_lexer_2 exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:5:long_lexer_2.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_long_lexer_2 in file "test/public/public.ml", line 21, characters 78-96
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:5:long_lexer_2.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:7:long_lexer_4.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:7:long_lexer_4 exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:7:long_lexer_4.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_long_lexer_4 in file "test/public/public.ml", line 27, characters 102-123
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:7:long_lexer_4.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:9:parse_one_plus_two.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:9:parse_one_plus_two exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:9:parse_one_plus_two.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_parse_one_plus_two in file "test/public/public.ml", line 33, characters 37-87
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:9:parse_one_plus_two.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:11:long_parser_1.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:11:long_parser_1 exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:11:long_parser_1.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_long_parser_1 in file "test/public/public.ml", line 39, characters 51-122
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:11:long_parser_1.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:13:long_parser_3.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:13:long_parser_3 exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:13:long_parser_3.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_long_parser_3 in file "test/public/public.ml", line 45, characters 51-146
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:13:long_parser_3.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: Start test public:15:right_associative.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Test public:15:right_associative exited with an error.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Failure("unimplemented") in test public:15:right_associative.
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from Dune__exe__Public.test_right_associative in file "test/public/public.ml", line 51, characters 51-122
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 E: 
+2021-06-29T13:26:33+00:00 Shilpas-MBP.fios-router.home#01 I: End test public:15:right_associative.
