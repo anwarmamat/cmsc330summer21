@@ -1,5 +1,6 @@
 open List
 open Nfa
+open Sets
 
 (*********)
 (* Types *)

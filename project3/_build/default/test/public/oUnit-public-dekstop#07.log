@@ -1,0 +1,8 @@
+2021-06-26T18:03:52+00:00 dekstop#07 I: Start test public:6:nfa_new_states.
+2021-06-26T18:03:52+00:00 dekstop#07 E: Test public:6:nfa_new_states exited with an error.
+2021-06-26T18:03:52+00:00 dekstop#07 E: Failure("unimplemented") in test public:6:nfa_new_states.
+2021-06-26T18:03:52+00:00 dekstop#07 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-26T18:03:52+00:00 dekstop#07 E: Called from Dune__exe__Public.test_nfa_new_states in file "test/public/public.ml", line 129, characters 29-47
+2021-06-26T18:03:52+00:00 dekstop#07 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-26T18:03:52+00:00 dekstop#07 E: 
+2021-06-26T18:03:52+00:00 dekstop#07 I: End test public:6:nfa_new_states.

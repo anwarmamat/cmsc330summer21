@@ -1,0 +1,9 @@
+2021-06-26T18:03:52+00:00 dekstop#01 I: Start test public:0:nfa_accept.
+2021-06-26T18:03:52+00:00 dekstop#01 E: Test public:0:nfa_accept exited with an error.
+2021-06-26T18:03:52+00:00 dekstop#01 E: Failure("unimplemented") in test public:0:nfa_accept.
+2021-06-26T18:03:52+00:00 dekstop#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-26T18:03:52+00:00 dekstop#01 E: Called from TestUtils.assert_nfa_deny in file "test/testUtils.ml", line 58, characters 5-21
+2021-06-26T18:03:52+00:00 dekstop#01 E: Called from Dune__exe__Public.test_nfa_accept in file "test/public/public.ml", line 10, characters 2-23
+2021-06-26T18:03:52+00:00 dekstop#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-26T18:03:52+00:00 dekstop#01 E: 
+2021-06-26T18:03:52+00:00 dekstop#01 I: End test public:0:nfa_accept.

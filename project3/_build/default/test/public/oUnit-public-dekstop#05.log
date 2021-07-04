@@ -1,0 +1,8 @@
+2021-06-26T18:03:52+00:00 dekstop#05 I: Start test public:4:re_to_nfa.
+2021-06-26T18:03:52+00:00 dekstop#05 E: Test public:4:re_to_nfa exited with an error.
+2021-06-26T18:03:52+00:00 dekstop#05 E: Failure("unimplemented") in test public:4:re_to_nfa.
+2021-06-26T18:03:52+00:00 dekstop#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-26T18:03:52+00:00 dekstop#05 E: Called from Dune__exe__Public.test_re_to_nfa in file "test/public/public.ml", line 162, characters 11-35
+2021-06-26T18:03:52+00:00 dekstop#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-26T18:03:52+00:00 dekstop#05 E: 
+2021-06-26T18:03:52+00:00 dekstop#05 I: End test public:4:re_to_nfa.

@@ -1,0 +1,9 @@
+2021-06-26T18:03:52+00:00 dekstop#03 I: Start test public:2:nfa_move.
+2021-06-26T18:03:52+00:00 dekstop#03 E: Test public:2:nfa_move exited with an error.
+2021-06-26T18:03:52+00:00 dekstop#03 E: Failure("unimplemented") in test public:2:nfa_move.
+2021-06-26T18:03:52+00:00 dekstop#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-26T18:03:52+00:00 dekstop#03 E: Called from TestUtils.assert_nfa_move in file "test/testUtils.ml", line 72, characters 33-47
+2021-06-26T18:03:52+00:00 dekstop#03 E: Called from Dune__exe__Public.test_nfa_move in file "test/public/public.ml", line 89, characters 2-39
+2021-06-26T18:03:52+00:00 dekstop#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-26T18:03:52+00:00 dekstop#03 E: 
+2021-06-26T18:03:52+00:00 dekstop#03 I: End test public:2:nfa_move.

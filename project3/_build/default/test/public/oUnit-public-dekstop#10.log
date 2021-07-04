@@ -1,0 +1,8 @@
+2021-06-26T18:03:52+00:00 dekstop#10 I: Start test public:9:regex_to_nfa.
+2021-06-26T18:03:52+00:00 dekstop#10 E: Test public:9:regex_to_nfa exited with an error.
+2021-06-26T18:03:52+00:00 dekstop#10 E: Failure("unimplemented") in test public:9:regex_to_nfa.
+2021-06-26T18:03:52+00:00 dekstop#10 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-06-26T18:03:52+00:00 dekstop#10 E: Called from Dune__exe__Public.test_str_to_nfa_empty in file "test/public/public.ml", line 181, characters 11-57
+2021-06-26T18:03:52+00:00 dekstop#10 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-06-26T18:03:52+00:00 dekstop#10 E: 
+2021-06-26T18:03:52+00:00 dekstop#10 I: End test public:9:regex_to_nfa.
