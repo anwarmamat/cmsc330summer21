@@ -1,0 +1,324 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+# Workspace root: /Users/shilpa-roy/330/student/disc8
+$ /usr/local/bin/nproc > /var/folders/c3/gxwyhvxx0435055tcn9tgm_c0000gn/T/duneac3ab9.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/shilpa-roy/.opam/4.11.0/bin/ocamlc.opt -config > /var/folders/c3/gxwyhvxx0435055tcn9tgm_c0000gn/T/dunecc4d25.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/shilpa-roy/.opam/4.11.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/shilpa-roy/.opam/4.11.0/bin"
+#  ; ocaml = Ok External "/Users/shilpa-roy/.opam/4.11.0/bin/ocaml"
+#  ; ocamlc = External "/Users/shilpa-roy/.opam/4.11.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/shilpa-roy/.opam/4.11.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/shilpa-roy/.opam/4.11.0/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/shilpa-roy/.opam/4.11.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" : "/Users/shilpa-roy/330/student/disc8/_build/default"
+#        ; "MANPATH" :
+#            "/Users/shilpa-roy/330/student/disc8/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/shilpa-roy/330/student/disc8/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/shilpa-roy/330/student/disc8/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/shilpa-roy/330/student/disc8/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/shilpa-roy/.opam/4.11.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.11.0"
+#      ; standard_library_default = "/Users/shilpa-roy/.opam/4.11.0/lib/ocaml"
+#      ; standard_library = "/Users/shilpa-roy/.opam/4.11.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin19.3.0"
+#      ; target = "x86_64-apple-darwin19.3.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X028"
+#      ; cmi_magic_number = "Caml1999I028"
+#      ; cmo_magic_number = "Caml1999O028"
+#      ; cma_magic_number = "Caml1999A028"
+#      ; cmx_magic_number = "Caml1999Y028"
+#      ; cmxa_magic_number = "Caml1999Z028"
+#      ; ast_impl_magic_number = "Caml1999M028"
+#      ; ast_intf_magic_number = "Caml1999N028"
+#      ; cmxs_magic_number = "Caml1999D028"
+#      ; cmt_magic_number = "Caml1999T028"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/shilpa-roy/.opam/4.11.0/bin/ocamldep.opt -modules -impl src/lexer.ml) > _build/default/src/.d8.objs/lexer.ml.d
+$ (cd _build/default && /Users/shilpa-roy/.opam/4.11.0/bin/ocamldep.opt -modules -impl src/parser.ml) > _build/default/src/.d8.objs/parser.ml.d
+$ (cd _build/default && /Users/shilpa-roy/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -I src/.d8.objs/byte -I src/.d8.objs/native -intf-suffix .ml -no-alias-deps -opaque -open D8 -o src/.d8.objs/native/d8__Lexer.cmx -c -impl src/lexer.ml)
+$ (cd _build/default && /Users/shilpa-roy/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -I src/.d8.objs/byte -I src/.d8.objs/native -intf-suffix .ml -no-alias-deps -opaque -open D8 -o src/.d8.objs/native/d8__Parser.cmx -c -impl src/parser.ml)
+$ (cd _build/default && /Users/shilpa-roy/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -a -o src/d8.cmxa src/.d8.objs/native/d8.cmx src/.d8.objs/native/d8__Lexer.cmx src/.d8.objs/native/d8__Parser.cmx)
+$ (cd _build/default && /Users/shilpa-roy/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/public/public.exe /Users/shilpa-roy/.opam/4.11.0/lib/ocaml/str.cmxa -I /Users/shilpa-roy/.opam/4.11.0/lib/ocaml src/d8.cmxa /Users/shilpa-roy/.opam/4.11.0/lib/ocaml/unix.cmxa -I /Users/shilpa-roy/.opam/4.11.0/lib/ocaml /Users/shilpa-roy/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/shilpa-roy/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/shilpa-roy/.opam/4.11.0/lib/ounit2/oUnit.cmxa test/public/.public.eobjs/native/dune__exe__Public.cmx)
+$ (cd _build/default/test/public && ./public.exe)
+> EEEEEEEEEEEEEEEEE
+> ==============================================================================
+> Error: public:16:parentheses.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 58, characters 1-1:
+> Error: public:16:parentheses (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_parentheses in file "test/public/public.ml", line 54, characters 51-146
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:15:right_associative.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 66, characters 1-1:
+> Error: public:15:right_associative (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_right_associative in file "test/public/public.ml", line 51, characters 51-122
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:14:long_parser_4.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 50, characters 1-1:
+> Error: public:14:long_parser_4 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_parser_4 in file "test/public/public.ml", line 48, characters 51-146
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:13:long_parser_3.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 58, characters 1-1:
+> Error: public:13:long_parser_3 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_parser_3 in file "test/public/public.ml", line 45, characters 51-146
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:12:long_parser_2.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 42, characters 1-1:
+> Error: public:12:long_parser_2 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_parser_2 in file "test/public/public.ml", line 42, characters 51-122
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:11:long_parser_1.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 50, characters 1-1:
+> Error: public:11:long_parser_1 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_parser_1 in file "test/public/public.ml", line 39, characters 51-122
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:10:parse_one_times_two.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 34, characters 1-1:
+> Error: public:10:parse_one_times_two (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_parse_one_times_two in file "test/public/public.ml", line 36, characters 37-87
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:9:parse_one_plus_two.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 42, characters 1-1:
+> Error: public:9:parse_one_plus_two (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_parse_one_plus_two in file "test/public/public.ml", line 33, characters 37-87
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:8:parse_one.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 26, characters 1-1:
+> Error: public:8:parse_one (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_parse_one in file "test/public/public.ml", line 30, characters 23-52
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:7:long_lexer_4.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 34, characters 1-1:
+> Error: public:7:long_lexer_4 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_lexer_4 in file "test/public/public.ml", line 27, characters 102-123
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:6:long_lexer_3.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 18, characters 1-1:
+> Error: public:6:long_lexer_3 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_lexer_3 in file "test/public/public.ml", line 24, characters 102-123
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:5:long_lexer_2.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 26, characters 1-1:
+> Error: public:5:long_lexer_2 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_lexer_2 in file "test/public/public.ml", line 21, characters 78-96
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:4:long_lexer_1.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 18, characters 1-1:
+> Error: public:4:long_lexer_1 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_long_lexer_1 in file "test/public/public.ml", line 18, characters 78-93
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:3:lex_one_times_two.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 10, characters 1-1:
+> Error: public:3:lex_one_times_two (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_lex_one_times_two in file "test/public/public.ml", line 15, characters 57-72
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:2:lex_one_plus_two.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 10, characters 1-1:
+> Error: public:2:lex_one_plus_two (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_lex_one_plus_two in file "test/public/public.ml", line 12, characters 57-73
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:1:lex_one.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#02.log", line 2, characters 1-1:
+> Error: public:1:lex_one (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_lex_one in file "test/public/public.ml", line 9, characters 36-47
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:0:lex_empty.
+>
+> File "/Users/shilpa-roy/330/student/disc8/_build/default/test/public/oUnit-public-Shilpas-MBP.fios-router.home#01.log", line 2, characters 1-1:
+> Error: public:0:lex_empty (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dune__exe__Public.test_lex_empty in file "test/public/public.ml", line 6, characters 25-36
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> Ran: 17 tests in: 0.11 seconds.
+> FAILED: Cases: 17 Tried: 17 Errors: 17 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
+[1]
